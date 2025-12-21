@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>common HTML Tags</title>
+    <title>common HTML Tags </title>
   </head>
   <body>
     <header>
@@ -37,7 +37,7 @@
     <section>
       <div>
         <h2>Here is an other section</h2>
-        <ol>
+        <ol type="I">
           <li>First item</li>
           <li>Second item</li>
           <li>Third item</li>
@@ -60,7 +60,7 @@
             name="lname"
             value=""
             placeholder="Enter you father name"
-          />
+          required />
           <br />
           <label for="password">Password:</label><br />
           <input
@@ -84,7 +84,7 @@
     <section>
       <div>
         <h2>Formating Tags</h2>
-        <p>1 <sup>st</sup> phase of Evangadi class</p>
+        <p>1 <sup>st</sup> phase of Evangadi class</p> 
         <p>The chemical formula of water is H <sub>2</sub>O</p>
         <p>This is <em>emphasized</em> text</p>
 
@@ -100,12 +100,16 @@
       <div>
         <h2>Media Tags</h2>
         <h3>Image</h3>
-        <img src="./myImages/dog.jpg" alt="" />
+        <img src="./myImages/dog.jpg" alt="dog" />
         <h3>Embeding Image using figure Tag</h3>
         <figure>
           <img src="./myImages/dog.jpg" alt="dog" />
           <figcaption>Cute dog</figcaption>
         </figure>
+
+        <h3>Video</h3>
+        <video   width="300px" height="300px" controls  src="myImages/howToCreateAFolder.mp4"></video>
+
         <h3>Embed YouTube video</h3>
         <p>Embeding by copying iframe from YouTube</p>
         <iframe
