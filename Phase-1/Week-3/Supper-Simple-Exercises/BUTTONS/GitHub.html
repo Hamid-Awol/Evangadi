@@ -5,23 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GitHub Button</title>
   <style>
-    .gitHub{
+    .outer {
+      display: inline-block;
+      border-radius: 10px;
+      border: solid red 2px;
+      padding: 5px;
+      margin: 10px 0 0 100px;
+    }
+    
+    .gitHub {
       background-color: rgb(46, 164, 79);
       color: white;
       border-radius: 10px;
       border: none;
-      width: 64px;
-      height: 28px;
+      width: 84px;
       text-align: center;
-
-
-      
+      padding: 8px 3px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    .gitHub:hover {
+      background-color: rgb(38, 145, 70);
     }
   </style>
 </head>
 <body>
-  <div class="gitHub">
-Sin Up
+  <div class="outer">
+    <div class="gitHub">
+      Sign Up
+    </div>
   </div>
 </body>
 </html>

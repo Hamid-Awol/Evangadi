@@ -1,16 +1,15 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: "Tilt Neon", sans-serif;
 }
-.blueBg{
+.blueBg {
   background-color: #195774;
-  
 }
-.header-text{
+.header-text {
   font-size: 20px;
   font-weight: bold;
   color: white;
@@ -18,42 +17,39 @@ body{
   padding: 28px 0;
 }
 
-
-img{
+img {
   width: 100%;
 }
-.Three-Images{
+.three-images {
   display: flex;
   width: 960px;
   margin: 20px auto;
   justify-content: space-between;
-
 }
-.missing{
+.missing {
   width: 310px;
   background-color: rgb(217, 8, 8);
 }
-.missing-text{
+.missing-text {
   text-align: center;
   font-size: 50px;
   padding: 50px;
 }
-.more-text{
+.more-text {
   text-align: center;
   margin: 20px auto;
   justify-content: center;
   font-size: 30px;
   font-weight: bold;
 }
-.vertical-images{
+.vertical-images {
   display: flex;
   width: 960px;
   margin: 20px auto;
   justify-content: space-between;
 }
 
-
-.footer-text{
+.footer-text {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 135px;
@@ -61,4 +57,3 @@ img{
   font-weight: bold;
   color: white;
 }
-

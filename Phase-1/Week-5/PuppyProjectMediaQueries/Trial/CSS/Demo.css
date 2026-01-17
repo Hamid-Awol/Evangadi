@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.center{
+  background-color: blue;
+  color: yellow;
+  text-align: center;
+}
+.paraContainer p{
+margin: 2%;
+}
+.Image-1{
+  background-image: url(../images/puppy-1.jpg);
+  
+}
+.Image-2{
+  background-image: url(../images/puppy-2.jpg);
+  
+}
+.Both{
+height: 310px;
+  background-size: cover;
+  width: 310px;
+  margin: 2% auto;
+}
+/* Media Quey goes here */
+@media (min-width: 700px){
+  .paraContainer{
+    display: flex;
+  }
+  .para-2{
+    display: none;
+  }
+  .Both{
+    width: 650px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .Image-2{
+  background-image: url(../images/puppy-3.jpg);
+}
+
+
+
+}

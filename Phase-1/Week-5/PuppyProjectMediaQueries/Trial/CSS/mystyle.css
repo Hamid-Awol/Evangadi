@@ -1,0 +1,110 @@
+/* Reseting default styles goes here.. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common CSS goes here... */
+
+body {
+  background-color: #fff;
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  /* overflow-x: hidden; */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blueBg {
+  max-width: 100%;
+  background-color: #195774;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navContainer {
+  padding: 27px 0 24px;
+}
+.bannerContainer > img {
+  width: 100%;
+}
+
+/* Styles for mobile screen goes here */
+.threePuppiesContainer,
+.twoPuppiesContainer {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.threePuppiesContainer {
+  gap: 72px;
+  margin: 45px auto 64px;
+}
+.twoPuppiesContainer {
+  margin: 64px auto 72px;
+  gap: 66px;
+}
+.missingPuppy {
+  height: 272px;
+  display: none;
+  background-color: rgb(212, 70, 70);
+}
+
+.puppy-1,
+.missingPuppy,
+.puppy-2,
+.puppy-3,
+.puppy-4 {
+  width: 85%;
+}
+
+.footerText {
+  padding: 64px 0;
+}
+
+.morePuppiesContainer {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+
+
+@media (min-width: 768px) {
+  .threePuppiesContainer,
+  .twoPuppiesContainer {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .threePuppiesContainer {
+    width: 980px;
+    margin: 45px auto 64px;
+  }
+
+  .missingPuppy {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .puppy-1,
+  .missingPuppy,
+  .puppy-2 {
+    width: 33%;
+  }
+  .twoPuppiesContainer{
+    width: 980px;
+    margin: 45px auto 67px;
+    align-items: center;
+  }
+}

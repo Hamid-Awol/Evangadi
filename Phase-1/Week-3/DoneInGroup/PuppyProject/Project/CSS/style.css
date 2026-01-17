@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+.banner {
+  margin-bottom: 84px;
+}
+.blueBg {
+  background-color: #0c4f70;
+  color: white;
+  text-align: center;
+}
+.blueBg h1 {
+  padding: 28px 0 24px;
+  font-size: 40px;
+}
+
+.threepuppies,
+.twopuppies {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.missing {
+  width: 310px;
+  background-color: #e84e5f;
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+}
+
+.moretxt {
+  margin: 75px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.blueBg p {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 100px 0 125px;
+  margin-top: 75px;
+}

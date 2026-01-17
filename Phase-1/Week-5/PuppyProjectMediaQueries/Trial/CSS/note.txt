@@ -1,0 +1,150 @@
+
+
+/* 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+} */
+
+  
+
+/* 
+.blueBg{
+
+  background-color: #195774;
+  color: white;
+  font-size: 1.5rem;
+  
+/* } */
+
+/* 
+.navContainer{
+ 
+
+
+
+} */ 
+
+/* 
+.bannerContainer{
+  margin-bottom: 45px;
+ }  */
+
+
+
+ 
+/* 
+
+
+.threePuppiesContainer, .twoPuppiesContainer     { 
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ 
+
+} */
+
+
+/* 
+.threePuppiesContainer{
+  gap: 72px;
+} */
+
+
+/* 
+
+.twoPuppiesContainer {
+  gap: 66px;
+}
+
+ */
+/* 
+.missingPuppy{
+
+  height: 278px;
+  display: none;
+  background-color:  rgb(212, 70, 70);
+} */
+
+
+/* 
+
+.morePuppiesContainer{
+  margin: 76px auto 60px;
+  font-size: 2rem;
+  font-weight: bolder;
+  
+} */
+
+
+/* 
+.puppy-1, .missingPuppy, .puppy-2, .puppy-3, .puppy-4{
+  width: 80%;
+} */
+
+
+/* 
+.footerContainer{
+  margin-top: 92px;
+} */
+
+/* 
+
+.footerText{
+  padding: 64px 0;
+} */
+
+/* CSS for devices ih which their screen size greater than 768px */
+
+
+
+
+
+
+@media (min-width: 768px)    {
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+.threePuppiesContainer, .twoPuppiesContainer     {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  
+ 
+ }
+ .missingPuppy{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.puppy-1, .missingPuppy, .puppy-2{
+  width: 33%;
+}
+
+.threePuppiesContainer,.twoPuppiesContainer{
+  width: 980px;
+  display: flex;
+  margin: 0 auto;
+}
+.twoPuppiesContainer{
+ justify-content: space-between; 
+}
+

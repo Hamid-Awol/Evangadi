@@ -1,0 +1,98 @@
+/* Reseting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* Styles for all devices */
+}
+body {
+  background-color: white;
+  text-align: center;
+}
+
+.blueBg {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(71, 71, 141);
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+}
+
+.headerText {
+  padding: 21px 0 24px;
+}
+img {
+  width: 100%;
+}
+
+/* Styles for mobile devices */
+.all-puppies {
+  width: 80%;
+  margin: 45px 10% 92px;
+}
+
+.puppy-1 {
+  margin-bottom: 72px;
+}
+
+.missing-puppy {
+  background-color: rgb(228, 13, 13);
+  width: 33%;
+  display: none;
+}
+.missing-puppy > p {
+  text-align: center;
+  padding: 22%;
+  font-size: 2rem;
+}
+
+.more-text {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 75px;
+  margin-bottom: 59px;
+}
+
+.puppy-3 {
+  margin-bottom: 64px;
+}
+.footer-text {
+  padding: 64px 0 68px;
+}
+
+/* style for devices in which whose size greater than 768px */
+
+@media (min-width: 768px) {
+  .all-puppies {
+    width: 80%;
+    margin: 45px 10% 92px;
+  }
+
+  .three-puppies {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+.puppy-1 {
+  margin-bottom: 0;
+}
+  .missing-puppy {
+    display: block;
+    width: 33%;
+ 
+  }
+  .missing-puppy > p {
+  text-align: center;
+ /* margin: 27px; */
+  font-size: 2rem;
+}
+
+  .two-puppies-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+}
